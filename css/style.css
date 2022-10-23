@@ -2,3 +2,105 @@
     padding: 0px;
     margin: 0px;
 }
+
+header{
+    padding: 24px 0; background: #181818;
+}
+.Header_block{
+    max-width: 1200px; display: flex; margin:auto; justify-content: space-between; align-items: center;
+}
+.Header_image{
+    margin-left: 32px;
+}
+.Header_navigation{
+    display: flex; list-style: none; margin-right: 20px;
+}
+.item_1{
+    margin-left: 20px;
+}
+.item_2{
+    margin-left: 56px;
+}
+.item_3{
+    margin-left: 32px;
+}
+.item_4{
+    margin-left: 32px;
+}
+.item_5{
+    margin-left: 32px;
+}
+.item_link_1{
+    text-decoration: none; font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.item_link_2{
+    text-decoration: none;font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.item_link_3{
+    text-decoration: none; font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.item_link_4{
+    text-decoration: none; font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.item_link_5{
+    text-decoration: none; font-family: 'Poppins';  padding: 9px 20px 9px 20px; background: #FFFFFF; border-radius: 14px;  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.main_content{
+    background-image: url('../images/bg_m.jpg'); background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: flex-end; padding-bottom: 71px; box-sizing: border-box;
+}
+.content_block{
+    max-width: 580px; text-align: center;
+}
+.title{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+}
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    color: #FFFFFF; 
+}
+.subtitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0; 
+}
