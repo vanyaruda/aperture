@@ -31,7 +31,7 @@ header{
     margin-left: 32px;
 }
 .item_link_1{
-    text-decoration: none; font-family: 'Poppins';
+    text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -39,7 +39,7 @@ header{
     color: #FFFFFF;
 }
 .item_link_2{
-    text-decoration: none;font-family: 'Poppins';
+    text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -47,7 +47,7 @@ header{
     color: #FFFFFF;
 }
 .item_link_3{
-    text-decoration: none; font-family: 'Poppins';
+    text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -55,7 +55,7 @@ header{
     color: #FFFFFF;
 }
 .item_link_4{
-    text-decoration: none; font-family: 'Poppins';
+    text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -63,7 +63,7 @@ header{
     color: #FFFFFF;
 }
 .item_link_5{
-    text-decoration: none; font-family: 'Poppins';  padding: 9px 20px 9px 20px; background: #FFFFFF; border-radius: 14px;  
+    text-decoration: none; font-family: 'Poppins', sans-serif;  padding: 9px 20px 9px 20px; background: #FFFFFF; border-radius: 14px;  
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -78,7 +78,7 @@ header{
     max-width: 580px; text-align: center;
 }
 .title{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -89,7 +89,7 @@ text-transform: uppercase;
 color: #C0C0C0;
 }
 h1{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
@@ -97,7 +97,7 @@ h1{
     color: #FFFFFF; 
 }
 .subtitle{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
