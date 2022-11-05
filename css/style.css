@@ -2,9 +2,15 @@
     padding: 0px;
     margin: 0px;
 }
-
+body{
+    padding-top: 83px;
+}
 header{
     padding: 24px 0; background: #181818;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 99;
 }
 .Header_block{
     max-width: 1200px; display: flex; margin:auto; justify-content: space-between; align-items: center;
@@ -72,7 +78,7 @@ header{
     color: #000000;
 }
 .main_content{
-    background-image: url('../images/bg_m.jpg'); background-size: cover; height: 100vh; display: flex; justify-content: center; align-items: flex-end; padding-bottom: 71px; box-sizing: border-box;
+    background-image: url('../images/bg_m.jpg'); background-size: cover; height: calc(100vh - 83px); display: flex; justify-content: center; align-items: flex-end; padding-bottom: 71px; box-sizing: border-box; position: relative;
 }
 .content_block{
     max-width: 580px; text-align: center;
@@ -103,4 +109,74 @@ h1{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0; 
+}
+.fixed_location{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.fixed_location li{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+color: #FFFFFF;
+margin-left: 16px;
+display: flex;
+align-items: center;
+}
+.fixed_location li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/clock.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+
+}
+.fixed_location li:nth-child(2):before{
+background-image: url("../images/circl.svg");
+}
+.fixed_location li:nth-child(3):before{
+   background-image: url("../images/iso.svg");
+   width: 32px; 
+}
+.fixed_location li:nth-child(4):before{
+    background-image: url("../images/location.svg");
+    width: 10px;
+}
+.sunset{
+    background-image: url("../images/bgimage_mountine.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.sunset .sub_container{
+max-width: 298px;
+margin-right: 62px;
+}
+.sub_container h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sub_container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
