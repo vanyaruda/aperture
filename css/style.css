@@ -213,7 +213,7 @@ color: #C0C0C0;
 }
 .past_clients{
     background-color:#000000;
-    min-height: 500px;
+    
     padding-top: 120px;
     padding-bottom: 100px;
 
@@ -246,6 +246,12 @@ color: #C0C0C0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.past_clients_images a{
+    max-width: 128px;
+    display: inline-block;
+    
+
 }
 .star{
     background-image: url('../images/bgimage_star.jpg');
@@ -280,7 +286,7 @@ color: #C0C0C0;
 }
 .need_help{
     background-color: #000000;
-    min-height: 414px;
+   
     padding-top: 113px;
     padding-bottom: 108px;
 
@@ -337,6 +343,13 @@ color: #C0C0C0;
     border-radius: 12px;
     margin-right: 6px;
 
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-item{
+    text-align: center; 
 }
 
 
