@@ -214,13 +214,13 @@ color: #C0C0C0;
 .past_clients{
     background-color:#000000;
     min-height: 500px;
+    padding-top: 120px;
+    padding-bottom: 100px;
 
 }
 .past_clients_container{
     max-width: 1200px;
     margin: auto;
-    padding-top: 120px;
-    padding-bottom: 100px;
 }
 .past_clients_container h4{
     font-family: 'Poppins', sans-serif;
@@ -281,6 +281,8 @@ color: #C0C0C0;
 .need_help{
     background-color: #000000;
     min-height: 414px;
+    padding-top: 113px;
+    padding-bottom: 108px;
 
 }
 .need_help_container{
@@ -288,8 +290,7 @@ color: #C0C0C0;
     margin: auto;
     box-sizing: border-box;
     text-align: center;
-    padding-top: 113px;
-    padding-bottom: 108px;
+
 }
 .need_help_container h4{
     font-family: 'Poppins', sans-serif;
