@@ -352,4 +352,144 @@ color: #C0C0C0;
     text-align: center; 
 }
 
+/*! add chevrone */
+
+.owl-nav .owl-prev:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    display: inline-block;
+    font-size: 50px;
+    color: #FFFFFF;
+    position: absolute;
+    left: -45px;
+    top: 22px;
+
+}
+.owl-nav .owl-next:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    display: inline-block;
+    font-size: 50px;
+    color: #FFFFFF;
+    position: absolute;
+    right: -45px;
+    top: 22px;
+transform: rotate(180deg);
+}
+
+/*! close add */
+
+/* add dots */
+/* .owl-dots{
+    text-align: center;
+}
+.owl-dots .owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    border-radius: 50%;
+    
+    
+}
+.owl-dots .owl-dot.active span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    
+}*/
+
+/* close add dots */
+
+/* add accordion */
+.faq{
+    background-color: #F3F5F7;
+    padding: 80px 0;
+}
+.faq .container{
+display: flex;
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+}
+.faq .text{
+    max-width: 500px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.faq .accordion{
+    max-width: 700px;
+}
+.faq .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 50px;
+}
+.faq .text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #697586;
+}
+.faq .ui-accordion .ui-accordion-header{
+    background: #FFFFFF;
+    border: 1px solid #E3E8EF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 23px 25px;
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #202939;
+margin-bottom: 16px;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    margin-bottom: 0px;
+    border-radius: 8px 8px 0 0;
+}
+.ui-accordion .ui-accordion-content{
+    margin-bottom: 16px;
+    border-radius: 0 0 8px 8px;
+}
+.faq .ui-accordion .ui-icon{
+    background-image: none;
+    background-position: 0;
+    width: 32px;
+    height: 48px;
+    text-indent: 0;
+    position: absolute;
+    right: 25px;
+    top: 29px;
+
+}
+.faq .ui-accordion .ui-icon:before{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\2b";
+    font-size: 22px;
+display: inline-block;
+transition: 0.8s;
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:before{
+transform: rotate(360deg);
+
+}
+
+/* close add accordion */
+
+
+
 
