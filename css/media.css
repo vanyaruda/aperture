@@ -666,6 +666,9 @@
     }
 }
 @media screen and (max-width: 428px) {
+    .cd-3d-nav-trigger{
+        display: inline-block;
+    }
     .fixed_location {
         bottom: 10px;
         
@@ -786,6 +789,17 @@
     header{
         position: static;
     }
+    .what_we_do .d_flex{
+        justify-content: center;
+    }
+    .position_bg{
+        position: relative;
+        width: 100%;
+    }
+    .tools .container{
+        justify-content: center;
+        text-align: center;
+    }
     .main_content{
         height: 400px;
     }
@@ -824,4 +838,15 @@
     .main_content{
         height: 400px;
     } 
+    .what_we_do .d_flex{
+        justify-content: center;
+    }
+     .position_bg{
+        position: relative;
+        width: 100%;
+    }
+    .tools .container{
+        justify-content: center;
+        text-align: center;
+    }
 }
