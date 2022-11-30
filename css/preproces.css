@@ -1,0 +1,81 @@
+.item_link_1 {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.item_link_2 {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.item_link_3 {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.item_link_4 {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.item_link_5 {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  padding: 9px 20px 9px 20px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.fixed_location {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.fixed_location li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+.fixed_location li:before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/clock.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}/*# sourceMappingURL=preproces.css.map */
