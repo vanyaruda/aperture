@@ -56,39 +56,24 @@ z-index: 99;
 .cd-3d-nav-container .cd-3d-nav,.Header_navigation li:nth-child(5){
     margin-left: 32px;
 }
-/* .cd-3d-nav-container .cd-selected a{
-    text-decoration: none; font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    color: #FFFFFF;
-} */
-/* .cd-3d-nav-container .cd-3d-nav a:nth-child(1){
-    text-decoration: none; font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    color: #FFFFFF; 
-} */
-
-.cd-3d-nav a:first-child{
-    text-decoration: none; font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-    color: #FFFFFF; 
-}
-.cd-3d-nav a:nth-child(2){
+.cd-3d-nav .head_link {
     text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
+.cd-3d-nav .head_btm{
+    text-decoration: none; font-family: 'Poppins', sans-serif;  padding: 9px 20px 9px 20px; background: #FFFFFF; border-radius: 14px;  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+
 
 
 
@@ -108,23 +93,23 @@ z-index: 99;
 .item_5{
     margin-left: 32px;
 } */
-.item_link_1{
+/* .item_link_1{
     text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
     color: #FFFFFF;
-}
-.item_link_2{
+} */
+/* .item_link_2{
     text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
-}
-.item_link_3{
+} */
+/* .item_link_3{
     text-decoration: none; font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -148,7 +133,7 @@ z-index: 99;
     line-height: 20px;
     letter-spacing: 0.4px;
     color: #000000;
-}
+} */
 .main_content{
     background-image: url('../images/bg_m.jpg'); background-size: cover; height: calc(100vh - 83px); display: flex; justify-content: center; align-items: flex-end; padding-bottom: 71px; box-sizing: border-box; position: relative;
 }
@@ -612,7 +597,7 @@ transform: rotate(360deg);
         text-decoration: none; font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 13px;
         line-height: 20px;
         color: #FFFFFF;
         padding: 7.6em 1em 0;

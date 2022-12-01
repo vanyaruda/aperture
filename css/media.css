@@ -780,6 +780,28 @@
     /* .Header_navigation li{
         margin-left: 10px;
     }  */
+    .cd-3d-nav .head_link{
+        position: relative;
+        display: block;
+        height: 100%;
+        color: transparent;
+        -webkit-transition: background-color 0.2s;
+        -moz-transition: background-color 0.2s;
+        transition: background-color 0.2s;
+    }
+    .cd-3d-nav .head_btm{
+        position: relative;
+        display: block;
+        height: 100%;
+        color: transparent;
+        -webkit-transition: background-color 0.2s;
+        -moz-transition: background-color 0.2s;
+        transition: background-color 0.2s;
+        padding: 0;
+       background-color: #313a55;
+        border-radius: none;
+    }
+
     .cd-3d-nav-container .cd-selected{
         margin-left: 0;
     }
