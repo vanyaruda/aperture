@@ -777,9 +777,30 @@
     }
 }
 @media screen and (max-width: 768px) {
-    .Header_navigation li{
+    /* .Header_navigation li{
         margin-left: 10px;
-    } 
+    }  */
+    .cd-3d-nav-container .cd-selected{
+        margin-left: 0;
+    }
+    .cd-3d-nav-container .cd-3d-nav,.Header_navigation li:nth-child(2){
+        margin-left: 0;
+    }
+    .cd-3d-nav-container .cd-3d-nav,.Header_navigation li:nth-child(3){
+        margin-left: 0;
+    }
+    .cd-3d-nav-container .cd-3d-nav,.Header_navigation li:nth-child(4){
+        margin-left: 0;
+    }
+    .cd-3d-nav-container .cd-3d-nav,.Header_navigation li:nth-child(5){
+        margin-left: 0;
+    }
+    
+
+    .Header_navigation{
+        width: 100%;
+        margin-right: 0;
+    }
     body{
         padding: 0;
     }
@@ -963,12 +984,12 @@
                         background-position: 0 0; }
                       .no-touch .cd-3d-nav a:hover {
                         background-color: #2b3145; }
-                    .cd-3d-nav .cd-selected a {
-                      background-color: #212635; }
-                      .no-touch .cd-3d-nav .cd-selected a:hover {
-                        background-color: #212635; }
-                      .cd-3d-nav .cd-selected a::before {
-                        background-position: 0 -32px; }
+                        .cd-3d-nav .cd-selected a {
+                            background-color: #212635; }
+                            .no-touch .cd-3d-nav .cd-selected a:hover {
+                              background-color: #212635; }
+                            .cd-3d-nav .cd-selected a::before {
+                              background-position: 0 -32px; }
                     .nav-is-visible .cd-3d-nav {
                       -webkit-transform: translateZ(0);
                       -moz-transform: translateZ(0);
@@ -984,26 +1005,26 @@
                         transition: opacity 0.5s 0s, visibility 0s 0.5s; }
 }
 @media screen and (max-width: 800px) {
-    .Header_navigation li{
+    /* .Header_navigation li{
         margin-left: 10px;
-    }  
+    }   */
     .main_content{
         height: 400px;
     }
 }
 @media screen and (max-width: 820px) {
-    .Header_navigation li{
+    /* .Header_navigation li{
         margin-left: 10px;
-    } 
+    }  */
     .main_content{
         height: 400px;
     }
 
 }
 @media screen and (max-width: 834px) {
-    .Header_navigation li{
+    /* .Header_navigation li{
         margin-left: 10px;
-    } 
+    }  */
     .main_content{
         height: 400px;
     }
